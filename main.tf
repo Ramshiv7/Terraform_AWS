@@ -16,5 +16,3 @@ resource "aws_iam_user_policy_attachment" "admin_policy" {
     policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
   
 }
-
-# arn:aws:iam::aws:policy/AdministratorAccess
